@@ -1,0 +1,15 @@
+.image-slider {
+  width: 100%; /* Container width */
+  overflow: hidden; /* Hide overflowing images */
+  position: relative;
+}
+
+.images {
+  display: flex; /* Align images horizontally */
+  transition: transform 0.5s ease-in-out; /* Smooth scrolling effect */
+}
+
+.images img {
+  width: 100%; /* Ensure each image takes full width */
+  flex-shrink: 0; /* Prevent images from shrinking */
+}
